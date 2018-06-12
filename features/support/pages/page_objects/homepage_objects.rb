@@ -1,7 +1,7 @@
 module PageObjects
   module HomepageObjects
     def search_bar
-      $browser.text_field(i: 'search_query_top')
+      $browser.text_field(id: 'search_query_top')
     end
 
     def search_button
